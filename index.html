@@ -81,7 +81,7 @@
             </div>
             <input type="text" id="phone-number" placeholder="e.g. +1 234 567 890" required>
           </div>
-          <button id="info-form-complete">Next Step</button>
+          <button class="next-step" id="info-form-complete">Next Step</button>
         </form>
       </div>
 
@@ -108,31 +108,57 @@
             <small class="pro-month" id="pro-month">$15/mo</small>
           </div>
         </div>
+        <div class="month-year-slider">
+          <!--The month or year option should have a highlight style depending on which option was selected-->
+          <p class="selected-slide">Monthly</p>
+          <!--THE SLIDER SHOULD BE HERE, BETWEEN THE TWO PARAGRAPH-->
+          <P class="selected-slide">Yearly</P>
+        </div>
+        <div class="back-forward">
+          <button class="go-back" id="go-back">Go Back</button>
+          <button class="next-step" id="plan-next-step">Next Step</button>
+        </div>
+      </div>
+
+      <!--This is the add-on selection page-->
+      <div class="add-ons">
+        <div class="section-description">
+          <h2>Pick add-ons</h2>
+          <p>Add-ons help enhance your gaming experience</p>
+        </div>
+        <div class="add-on-category">
+          <div class="add-on-option">
+            <input type="checkbox" id="online-service">
+            <div class="add-on-content">
+              <h6>Online service</h6>
+              <p>Access to multiplayer games</p>
+            </div>
+            <p class="add-on-pricing">+$1/mo</p>
+          </div>
+          <div class="add-on-option">
+            <input type="checkbox" id="larger-storage">
+            <div class="add-on-content">
+              <h6>Larger storage</h6>
+              <p>Extra 1TB of cloud save</p>
+            </div>
+            <p class="add-on-pricing">+$2/mo</p>
+          </div>
+          <div class="add-on-option">
+            <input type="checkbox" id="">
+            <div class="add-on-content">
+              <h6>Customizable Profile</h6>
+              <p>Custom theme on your profile</p>
+            </div>
+            <p class="add-on-pricing">+$2/mo</p>
+          </div>
+        </div>
+        <div class="back-forward">
+          <button class="go-back" id="go-back">Go Back</button>
+          <button class="next-step" id="plan-next-step">Next Step</button>
+        </div>
       </div>
     </div>
   </div>
-
-  <!-- Step 2 start -->
-
-  Select your plan
-  You have the option of monthly or yearly billing.
-
-  Arcade
-  $9/mo
-
-  Advanced
-  $12/mo
-
-  Pro
-  $15/mo
-
-  Monthly
-  Yearly
-
-  Go Back
-  Next Step
-
-  <!-- Step 2 end -->
 
   <!-- Step 3 start -->
 
