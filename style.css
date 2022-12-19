@@ -174,3 +174,7 @@ form{
     font-weight: 500;
     color: hsl(213, 96%, 18%);
 }
+.back-forward{
+    display: flex;
+    justify-content: space-between;
+}
