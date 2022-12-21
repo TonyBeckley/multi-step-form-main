@@ -68,8 +68,8 @@ p{
     position: absolute;
     padding-top: 60px;
 }
-.section-description h1{
-    font-size: 4rem;
+h1{
+    font-size: 3.5rem;
     color: hsl(213, 96%, 18%);
     margin-bottom: 10px;
 }
@@ -91,7 +91,7 @@ small{
     font-size: 1.5rem;
     color: red;
 }
-input{
+.input-form {
     width: 98%;
     height: 70px;
     border: 2px solid;
@@ -102,14 +102,14 @@ input{
     margin: 10px 0 30px 0;
     font-size: 1.5rem;
 }
-input:focus {
+.input-form :focus {
     border-color: hsl(243, 100%, 62%);
 }
 form{
     position: relative;
     height: 650px;
 }
-.next-step{
+.personal-next-step{
     position: absolute;
     font-size: 1.5rem;
     padding: 20px 30px 20px 30px;
@@ -125,11 +125,11 @@ form{
 }
 
 .plan-selection{
-    /*position: absolute; */
+    position: absolute;
     padding-top: 40px;
 }
 .section-description h2{
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: hsl(213, 96%, 18%);
     margin-bottom: 10px;
 }
@@ -164,7 +164,7 @@ form{
     justify-content: center;
     gap: 150px;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: hsl(206, 94%, 87%);
@@ -177,4 +177,59 @@ form{
 .back-forward{
     display: flex;
     justify-content: space-between;
+}
+.back-forward button{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 20px 30px 20px 30px;
+    border: none;
+}
+.go-back{
+    background-color: #fff;
+    color: hsl(213, 96%, 18%);
+}
+.go-next{
+    border-radius: 10px;
+    background-color: hsl(213, 96%, 18%);
+    color: #fff;
+}
+.add-ons{
+    height: 100vh;
+    padding-top: 80px;
+}
+.second-third{
+    display: flex;
+    height: 67vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.add-on-option{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.add-on-option input {
+    display: inline-block;
+    height: 30px;
+    width: 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.add-on-content{
+    width: 270px;
+}
+.add-on-content h5{
+    margin-bottom: 5px;
+    color: hsl(213, 96%, 18%);
+}
+.add-on-content p{
+    color: hsl(231, 11%, 63%);
+}
+.add-on-pricing{
+    margin-left: 57%;
+    color: blueviolet;
 }

@@ -66,28 +66,28 @@
               <label for="name">Name</label>
               <small class="error-message">This field is required</small>
             </div>
-            <input type="text" id="name" placeholder="e.g. Stephen King" required>
+            <input type="text" id="name" class="input-form" placeholder="e.g. Stephen King" required>
           </div>
           <div class="form-input">
             <div class="label-error">
               <label for="email">Email Address</label>
               <small class="error-message">This field is required</small>
             </div>
-            <input type="text" id="email" placeholder="e.g. stephenking@lorem.com" required>
+            <input type="text" id="email" class="input-form" placeholder="e.g. stephenking@lorem.com" required>
           </div>
           <div class="form-input">
             <div class="label-error">
               <label for="phone-number">Phone Number</label>
               <small class="error-message">This field is required</small>
             </div>
-            <input type="text" id="phone-number" placeholder="e.g. +1 234 567 890" required>
+            <input type="text" id="phone-number" class="input-form" placeholder="e.g. +1 234 567 890" required>
           </div>
-          <button class="next-step" id="info-form-complete">Next Step</button>
+          <button class="personal-next-step" id="info-form-complete">Next Step</button>
         </form>
       </div>
 
       <!--This is the plan selection page consisting of the different plans available-->
-      <div class="plan-selection">
+      <div class="plan-selection hide">
         <div class="section-description">
           <h2>Select your plan</h2>
           <p>You have the option of monthly or yearly billing</p>
@@ -117,7 +117,7 @@
         </div>
         <div class="back-forward">
           <button class="go-back" id="go-back">Go Back</button>
-          <button class="next-step" id="plan-next-step">Next Step</button>
+          <button class="go-next" id="go-next">Next Step</button>
         </div>
       </div>
 
@@ -127,35 +127,37 @@
           <h2>Pick add-ons</h2>
           <p>Add-ons help enhance your gaming experience</p>
         </div>
-        <div class="add-on-category">
-          <div class="add-on-option">
-            <input type="checkbox" id="online-service">
-            <div class="add-on-content">
-              <h6>Online service</h6>
-              <p>Access to multiplayer games</p>
+        <div class="second-third">
+          <div class="add-on-category">
+            <div class="add-on-option">
+              <input class="check-box" type="checkbox" id="online-service">
+              <div class="add-on-content">
+                <h5>Online service</h5>
+                <p>Access to multiplayer games</p>
+              </div>
+              <p class="add-on-pricing">+$1/mo</p>
             </div>
-            <p class="add-on-pricing">+$1/mo</p>
-          </div>
-          <div class="add-on-option">
-            <input type="checkbox" id="larger-storage">
-            <div class="add-on-content">
-              <h6>Larger storage</h6>
-              <p>Extra 1TB of cloud save</p>
+            <div class="add-on-option">
+              <input class="check-box" type="checkbox" id="larger-storage">
+              <div class="add-on-content">
+                <h5>Larger storage</h5>
+                <p>Extra 1TB of cloud save</p>
+              </div>
+              <p class="add-on-pricing">+$2/mo</p>
             </div>
-            <p class="add-on-pricing">+$2/mo</p>
-          </div>
-          <div class="add-on-option">
-            <input type="checkbox" id="">
-            <div class="add-on-content">
-              <h6>Customizable Profile</h6>
-              <p>Custom theme on your profile</p>
+            <div class="add-on-option">
+              <input class="check-box" type="checkbox" id="customize-profile">
+              <div class="add-on-content">
+                <h5>Customizable Profile</h5>
+                <p>Custom theme on your profile</p>
+              </div>
+              <p class="add-on-pricing">+$2/mo</p>
             </div>
-            <p class="add-on-pricing">+$2/mo</p>
           </div>
-        </div>
-        <div class="back-forward">
-          <button class="go-back" id="go-back">Go Back</button>
-          <button class="next-step" id="plan-next-step">Next Step</button>
+          <div class="back-forward">
+            <button class="go-back" id="go-back">Go Back</button>
+            <button class="go-next" id="go-next">Next Step</button>
+          </div>
         </div>
       </div>
 
@@ -174,7 +176,7 @@
               <!--Figure out best way to link internal pages-->
               <a href="http://">Change</a>
             </div>
-
+    
           </div>
         </div>
       </div>
